@@ -1,0 +1,166 @@
+body { 
+margin: 0px;
+}
+
+header { 
+width: 98%;
+height: 35px;
+background-color: rgb(207, 60, 100);
+padding: 20px;
+display:flex;
+align-items:center;
+font-size: 22px;
+font-family: "Fantasy", Papyrus;
+box-shadow:black;
+box-shadow: 0 10px 10px -10px;
+position: fixed;
+}
+
+h1 { 
+margin: 0px;
+color:#ffff;
+flex-grow: 1;
+font-weight: 400;
+font-size: 36px;
+font-weight: bold;
+}
+
+h2 { 
+margin: 0px;
+color:rgb(0, 0, 0);
+flex-grow: 1;
+font-weight: 400;
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+ul { 
+list-style-type: none;
+margin: 0;
+display: flex;
+padding-left: 0;
+}
+
+li {
+font-size: 16px;
+margin-right: 55px ;
+}
+
+li:last-child {
+margin-right: 0px;
+}
+
+a { color: #ffff;
+text-decoration: none;
+}
+
+a:hover
+{ 
+color:#355c70;
+}
+
+a.active{
+color:#355c70;
+}
+
+.first{
+display: flex;
+background-color: #fed7e2;
+border-radius: 0px 0px 800px 800px;
+overflow: hidden;
+}
+
+.first-container
+{
+margin-top: 80px;
+width:380px;
+height:485px;
+display: flex;
+align-items: flex;
+flex-grow: 2;
+}
+
+.text-primary
+{
+text-align: center;
+color: rgb(27, 54, 112);
+font-size: 22px;
+font-family: "Fantasy", Papyrus;
+margin-top: 180px;
+padding-right: 65px;
+}
+
+.btn-primary
+{
+font-size: 16px;
+padding: 20px 40px;
+font-family: "Times New Roman", Times, serif;
+background-color: rgb(207, 60, 100);
+color: #ffff;
+border: 1px solid rgb(207, 60, 100);
+border-radius: 40px;
+}
+
+.section-header
+{
+text-align: center;
+font-size: 20px;
+margin-right: 80px;
+color: rgb(167, 52, 114);
+font-family: "Fantasy", Papyrus;
+font-weight: 100px;
+font: bolds;
+}
+
+.section-header hr
+{
+border-bottom: 2px solid rgb(167, 53, 114);
+border-top: 2px solid rgb(167, 53, 114);
+width: 98%;
+margin-left: 50px;
+}
+
+.row
+{
+display: flex;
+margin-left: 50px;
+}
+
+.row2
+{
+display: flex;
+}
+
+.col
+{
+width:33%;
+}
+
+.col2
+{
+width:50%;
+margin-right: 10px;
+}
+
+figure.col img{
+width: 100%;
+}
+
+.heightwidth
+{
+height: 136.33px;
+width: 159.29px;
+}
+
+.footer {
+height: 300px;
+width: 1262px;
+background-color: #fed7e2;
+text-align: center;
+box-shadow:black;
+box-shadow: 0 10px 10px 10px;
+font-family: "Fantasy", Papyrus;
+padding-top: 50px;
+margin-top: 20px;
+}
