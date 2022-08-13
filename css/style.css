@@ -16,8 +16,8 @@ box-shadow: 0 10px 10px -10px;
 position: fixed;
 }
 
-h1 { 
-margin: 0px;
+h1 {
+margin-left: 20px;
 color:#ffff;
 flex-grow: 1;
 font-weight: 400;
@@ -64,6 +64,10 @@ a.active{
 color:#355c70;
 }
 
+a.active2{
+color:#355c70;
+}
+
 .first{
 display: flex;
 background-color: #fed7e2;
@@ -95,12 +99,25 @@ padding-right: 65px;
 {
 font-size: 16px;
 padding: 20px 40px;
-font-family: "Times New Roman", Times, serif;
+font-family: "Fantasy", Papyrus;
 background-color: rgb(207, 60, 100);
 color: #ffff;
 border: 1px solid rgb(207, 60, 100);
 border-radius: 40px;
 }
+
+.btn-header
+{
+font-size: 16px;
+padding: 15px 30px;
+margin-right: 20px;
+font-family: "Fantasy", Papyrus;
+background-color: #fed7e2;
+color: rgb(0, 0, 0);
+border: 1px solid rgb(255, 255, 255);
+border-radius: 40px;
+}
+
 
 .section-header
 {
@@ -163,4 +180,36 @@ box-shadow: 0 10px 10px 10px;
 font-family: "Fantasy", Papyrus;
 padding-top: 50px;
 margin-top: 20px;
+}
+
+.form {
+height: 300px;
+width: 1262px;
+text-align: center;
+font-family: "Fantasy", Papyrus;
+padding-top: 140px;
+margin-top: 20px;
+}
+
+.contactform {
+height: 300px;
+width: 1262px;
+text-align: center;
+font-family: "Fantasy", Papyrus;
+padding-top: 80px;
+padding-bottom: 80px;
+margin-top: 20px;
+}
+
+.about {
+height: 300px;
+width: 1262px;
+text-align: center;
+font-family: "Fantasy", Papyrus;
+padding-top: 80px;
+margin-top: 20px;
+}
+
+.figcaption{
+    font-family: "Fantasy", Papyrus;
 }
